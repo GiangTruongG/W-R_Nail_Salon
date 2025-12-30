@@ -24,7 +24,7 @@ const ContactUs = () => {
             <div>
               <textarea
                   value={message}
-                  onChange={setMessage}
+                  onChange={(e) => setMessage(e.target.value)}
                   placeholder="Your message.."
                   rows="6"
                   className="w-full px-4 py-3 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-gray-800 resize-none"
