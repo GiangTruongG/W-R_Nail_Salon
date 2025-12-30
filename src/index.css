@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  line-height: 1.5;
+
+  --color-primary: #4A413C;
+  --color-secondary: #EBEFEE;
+  --color-light-brown: #CCB499;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.outfit-medium {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.playfair-display-medium {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.main-text-color {
+  color: var(--color-primary)
+}
+
+.bright-text-color {
+  color: var(--color-secondary)
+}
+
+.bg-light-gray {
+  background-color: var(--color-secondary);
+}
+
+.bg-color-primary {
+  background-color: var(--color-primary);
+}
+
+@media (prefers-color-scheme: light) {
+
+}
